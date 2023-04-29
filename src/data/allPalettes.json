@@ -1,0 +1,92 @@
+[
+  {
+    "title": "80 x 120 cm kalın tip palet",
+    "category": "wooden",
+    "img": "woodenPals/80x120kalın.jpg",
+    "visible": true
+  },
+  {
+    "title": "80 x 120 cm ince tip palet",
+    "category": "wooden",
+    "img": "woodenPals/80x120ince.jpg",
+    "visible": true
+  },
+  {
+    "title": "80 x 120 cm orta tip palet",
+    "category": "wooden",
+    "img": "woodenPals/80x120orta.jpg",
+    "visible": true
+  },
+  {
+    "title": "80 x 120 cm Standart Euro palet",
+    "category": "wooden",
+    "img": "woodenPals/80x120standarteuro.jpg",
+    "visible": true
+  },
+  {
+    "title": "100 x 120 cm kalın tip palet",
+    "category": "wooden",
+    "img": "woodenPals/100x120kalın.jpg",
+    "visible": true
+  },
+  {
+    "title": "100 x 120 cm ince tip palet",
+    "category": "wooden",
+    "img": "woodenPals/100x120ince.jpg",
+    "visible": true
+  },
+  {
+    "title": "100 x 120 cm orta tip palet",
+    "category": "wooden",
+    "img": "woodenPals/100x120orta.jpg",
+    "visible": true
+  },
+  {
+    "title": "100 x 120 cm Şişecam (9 tahtalı) palet",
+    "category": "wooden",
+    "img": "woodenPals/100x120sisecam.jpg",
+    "visible": true
+  },
+  {
+    "title": "100 x 120 cm Euro palet",
+    "category": "wooden",
+    "img": "woodenPals/100x120euro3.jpg",
+    "visible": true
+  },
+  {
+    "title": "100 x 120 cm Euro 2 palet",
+    "category": "wooden",
+    "img": "woodenPals/100x120Euro2.jpg",
+    "visible": true
+  },
+  {
+    "title": "110 x 110 cm İki Tarafı Açık palet",
+    "category": "wooden",
+    "img": "woodenPals/110x110ikitarafıacik.jpg",
+    "visible": true
+  },
+  {
+    "title": "120 x 120 cm palet",
+    "category": "wooden",
+    "img": "woodenPals/120x120.jpg",
+    "visible": true
+  },
+  {
+    "title": "76 X 114 CM CP-5  palet",
+    "category": "wooden",
+    "img": "woodenPals/76x114cp-5.jpg",
+    "visible": true
+  },
+  {
+    "title": "110 x 130 cm Hammadde (Altı Açık PRS - 4) palet",
+    "category": "wooden",
+    "img": "woodenPals/110x130hammadde.jpg",
+    "visible": true
+  },
+  {
+    "title": "100 x 120 cm Altı Kapalı CP-6 palet",
+    "category": "wooden",
+    "img": "woodenPals/100x120altıkapalıcp-6.jpg",
+    "visible": true
+  }
+]
