@@ -1,3 +1,5 @@
+## A website with nuxt3 and tailwindcss.
+
 Make sure to install the dependencies:
 
 ```bash
