@@ -1,5 +1,56 @@
 <template>
-  <section class="mx-auto bg-my-lightOrange  text-my-darkBlue w-full h-[100vw] sm:h-auto md:w-full md:h-[25vw] ">
+  <!-- <section style="background-image: url('/img/mainPhoto.jpg');"
+    class="mx-auto bg-cover bg-blend-overlay bg-fixed  text-my-darkBlue w-full h-[100vw] sm:h-auto md:w-full md:h-fit font-bold">
+    <TheTypewriter class="w-full col-span-12 p-4 "></TheTypewriter>
+    <div class="grid justify-between text-center h-full w-full px-2 lg:gap-8 xl:gap-0 lg:py-20 lg:grid-cols-12">
+
+
+      <div class="flex flex-col col-span-12 w-fit h-full p-3 bg-gray-50 bg-opacity-80 rounded-md text-my-black ">
+
+        <p class="w-full  my-8 lg:mb-8 text-base md:text-lg lg:text-xl  ">
+          İstanbulun
+          her yanına
+          kaliteli,
+          sağlam ve sektörde öncü markaların ürünleri sağlamaktayız.</p>
+        <NuxtLink to="/catalog"
+          class="inline-flex items-center w-fit justify-center px-5 py-3 mr-3  font-medium text-center rounded-lg bg-primary-700 hover:bg-my-darkOrange ease-out duration-200 text-sm md:text-lg">
+          Ürünlerimize göz atın.
+          <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </NuxtLink>
+
+
+      </div>
+    </div>
+  </section> -->
+
+  <section style="background-image: url('/img/mainPhoto.jpg');"
+    class="mx-auto bg-cover bg-blend-overlay bg-fixed text-my-darkBlue w-full sm:h-auto md:w-full md:h-fit font-bold ">
+
+    <TheTypewriter class="w-full col-span-12 p-4"></TheTypewriter>
+    <div class="grid justify-between text-center h-full w-full px-2 lg:gap-8 xl:gap-0 lg:py-20 lg:grid-cols-12">
+      <div class="flex flex-col col-span-12 w-fit h-full p-3 bg-gray-50 bg-opacity-90 rounded-md text-my-black">
+        <p class="w-full my-8 lg:mb-8 text-base md:text-lg lg:text-xl">
+          İstanbul'un her yanına kaliteli, sağlam ve sektörde öncü markaların ürünleri sağlamaktayız.
+        </p>
+        <NuxtLink to="/catalog"
+          class="inline-flex items-center w-fit justify-center px-5 py-3 mr-3  font-medium text-center rounded-lg bg-primary-700 hover:bg-my-lightOrange ease-out duration-200 text-sm md:text-lg">
+          Ürünlerimize göz atın.
+          <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </NuxtLink>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- <section class="mx-auto bg-my-lightOrange  text-my-darkBlue w-full h-[100vw] sm:h-auto md:w-full md:h-[25vw] ">
 
     <div class="grid max-w-screen-xl px-4 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
 
@@ -21,16 +72,12 @@
               clip-rule="evenodd"></path>
           </svg>
         </NuxtLink>
-        <!-- <a href="#"
-          class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-slate-200 border border-gray-300 rounded-lg hover:bg-orange-700 focus:ring-4 focus:ring-white  ">
-          Speak to Sales
-        </a> -->
       </div>
       <div class="hidden w-auto h-auto lg:mt-0 lg:col-span-5 lg:flex">
         <img class="rounded-md" src="img/mainPal2.jpg" alt="mockup">
       </div>
     </div>
-  </section>
+  </section> -->
 </template>
 
 

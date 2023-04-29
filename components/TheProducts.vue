@@ -191,7 +191,6 @@ export default {
 }
 
 img {
-  background-color: aquamarine;
   margin: auto;
   width: auto;
   height: auto;

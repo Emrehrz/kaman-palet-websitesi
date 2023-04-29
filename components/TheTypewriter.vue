@@ -1,7 +1,7 @@
 <template>
   <div
-    class="typewriter text-my-darkBlue max-w-2xl h-32 mb-4 mt-8 md:mt-0 text-5xl font-extrabold tracking-b leading-none md:text-5xl xl:text-6xl ">
-    <h1>İstanbulun en <br><span class="text-my-white">{{ text }}</span> <br class="md:hidden"> paletleri.</h1>
+    class="typewriter inline-flex flex-wrap text-center flex-row w-full bg-white bg-opacity-70 text-my-darkBlue h-28 mb-4 mt-8 md:mt-0 text-3xl font-extrabold tracking-b leading-none md:text-5xl xl:text-6xl ">
+    <h1 class="mx-auto">İstanbulun en <span class=" text-my-lightOrange">{{ text }}</span> paletleri.</h1>
   </div>
 </template>
 

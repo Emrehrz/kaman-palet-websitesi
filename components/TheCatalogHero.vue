@@ -5,6 +5,8 @@
         <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-b  leading-none md:text-5xl xl:text-6xl ">
           Ürünler</h1>
         <p class="max-w-2xl font-semibold mb-6 text-my-black lg:mb-8 md:text-lg lg:text-xl">
+          Kaman Palet olarak, Sıfır Ahşap Palet, Plastik Palet, İkinci El Palet, Euro Palet ve Epal Palet satışı
+          yapmaktayız.
         </p>
 
       </div>

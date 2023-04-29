@@ -1,10 +1,10 @@
 <template>
-  <footer class="relative bg-my-darkBlue text-my-lightGray shadow  bottom-0 ">
+  <footer class="relative bg-my-darkBlue text-my-lightGray shadow mt-auto bottom-0 ">
     <div class="max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
       <p class="hover:underline self-end">© {{ currentYear }}
         Kaman Palet. Tüm hakları saklıdır.</p>
 
-      <p class="mt-3 mr-4 text-sm md:mr-6 ">Diğer iletişim bilgileri</p>
+      <p class=" mr-4 text-sm md:mr-6 "><span>Diğer iletişim bilgileri</span> </p>
 
       <ul class="flex flex-wrap items-center mt-3 text-sm font-medium sm:mt-0 gap-2">
 

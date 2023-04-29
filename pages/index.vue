@@ -1,7 +1,7 @@
 <template>
   <div>
     <TheMainHero class="mb-2"></TheMainHero>
-    <TheCarousel class="mb-2"></TheCarousel>
+    <TheCarousel></TheCarousel>
   </div>
 </template>
 

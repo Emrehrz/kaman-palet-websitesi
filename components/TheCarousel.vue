@@ -1,6 +1,6 @@
 <template>
-  <div class="swiper-container mb-2">
-    <div class="bg-transparent overflow-hidden ">
+  <div class="h-fit ">
+    <div class="bg-transparent  overflow-hidden ">
       <swiper class="mySwiper " :spaceBetween="10" :autoplay="{
           delay: 800,
           disableOnInteraction: false,
@@ -9,7 +9,7 @@
     }" :navigation="true" :modules="modules">
         <swiper-slide><img class="rounded-md" src="/img/palet1.png" alt=""></swiper-slide>
         <swiper-slide><img class="rounded-md" src="/img/palet2.png" alt=""></swiper-slide>
-        <swiper-slide><img class="my-auto rounded-md " src="/img/woodenPals/100x120ince.jpg" alt=""></swiper-slide>
+        <swiper-slide><img class=" rounded-md " src="/img/woodenPals/100x120ince.jpg" alt=""></swiper-slide>
         <swiper-slide><img class="rounded-md" src="/img/woodenPals/100x120Euro2.jpg" alt=""></swiper-slide>
         <swiper-slide><img class="rounded-md" src="/img/woodenPals/110x110ikitarafıacik.jpg" alt=""></swiper-slide>
         <swiper-slide><img class="rounded-md" src="/img/mainPal1.jpg" alt=""></swiper-slide>
@@ -53,7 +53,8 @@ export default {
 <style scoped>
 .swiper {
   width: 320px;
-  height: 320px;
+  height: 300px;
+  justify-content: center;
   overflow: visible;
 
 }
@@ -66,5 +67,7 @@ export default {
 
 .swiper-slide img {
   width: auto;
+  height: auto;
+  margin: auto;
 }
 </style>
