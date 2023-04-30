@@ -3,13 +3,12 @@
     <div class="grid justify-center row-span-2  ">
       <iframe class="rounded-xl hidden sm:block"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.0382283058525!2d28.65400607650726!3d41.06815701573487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b558914cd6d3b9%3A0xe27d4a80c15a9036!2sOrhan%20Gazi%20Mh%2C%201719.%20Sk.%20No%3A11%2C%2034538%20Esenyurt%2F%C4%B0stanbul!5e0!3m2!1str!2str!4v1682630104107!5m2!1str!2str"
-        width="950" height="469" allowfullscreen="true" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
+        width="950" height="469" allowfullscreen="true" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
       <iframe class="block sm:hidden
       "
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.0382283058525!2d28.65400607650726!3d41.06815701573487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b558914cd6d3b9%3A0xe27d4a80c15a9036!2sOrhan%20Gazi%20Mh%2C%201719.%20Sk.%20No%3A11%2C%2034538%20Esenyurt%2F%C4%B0stanbul!5e0!3m2!1str!2str!4v1682630104107!5m2!1str!2str"
-        width="370" height="450" style="border:0;" allowfullscreen frameborder="0" loading="lazy"
+        width="370" height="450" style="border:0;" allowfullscreen frameborder="0"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <div class="bg-my-white p-2">

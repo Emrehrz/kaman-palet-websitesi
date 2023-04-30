@@ -1,8 +1,8 @@
 <template>
-  <div class="flex flex-col mx-auto my-0 h-min-[100vw] w-[90%] rounded-md text-my-darkBlue p-4">
+  <div class="flex flex-col mx-auto my-0 h-min-[100vw] w-[90%] rounded-md text-my-darkBlue p-4 ">
 
     <ul
-      class="inline-flex flex-wrap mb-4 mx-auto md:mx-0 md:mr-auto justify-start md:p-2 md:px-20 gap-2 md:gap-12 text-base md:text-2xl font-bold rounded ">
+      class="inline-flex flex-wrap mb-6 mx-auto md:mx-0 md:mr-auto justify-start md:p-2 md:px-20 gap-2 md:gap-12 text-base md:text-2xl font-bold rounded ">
       <TransitionGroup name="list">
         <li v-if="allCategories" @click="getAllCategories" class=" hover:text-my-white hover:bg-my-darkBlue px-3 rounded 
         ease-linear duration-300 cursor-pointer" :key="key1">
@@ -20,7 +20,7 @@
 
 
     <div
-      class="grid sm:grid-cols-2 lg:grid-cols-3 grid-flow-row-dense w-[90%] h-fit mx-auto justify-center align-top items-start gap-x-2 md:gap-y-4">
+      class="grid sm:grid-cols-2 lg:grid-cols-3 grid-flow-row-dense w-[90%] h-fit mx-auto items-baseline gap-x-2 md:gap-y-4">
       <TransitionGroup name="list">
         <div v-if="visibility.wooden" class="w-auto lg:w-[25vw]  h-fit text-gray-900 mt-0 "
           v-for="(product, index) in   woodPals  " :key="index">
@@ -49,7 +49,7 @@
       </TransitionGroup>
     </div>
     <div
-      class="grid sm:grid-cols-2 lg:grid-cols-3 grid-flow-row-dense w-[90%] h-fit mx-auto justify-center align-top items-start gap-x-2 md:gap-y-4">
+      class="grid sm:grid-cols-2 lg:grid-cols-3 grid-flow-row-dense w-[90%] h-fit mx-auto items-baseline gap-x-2 md:gap-y-4">
       <TransitionGroup name="list">
         <div v-if="visibility.plastic" class="w-auto lg:w-[25vw]  h-fit text-gray-900 mt-0 "
           v-for="product in plasticPals " :key="product.id">

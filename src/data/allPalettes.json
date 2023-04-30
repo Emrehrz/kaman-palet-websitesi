@@ -78,12 +78,6 @@
     "visible": true
   },
   {
-    "title": "110 x 130 cm Hammadde (Altı Açık PRS - 4) Ahşap Palet",
-    "category": "wooden",
-    "img": "woodenPals/110x130hammadde.jpg",
-    "visible": true
-  },
-  {
     "title": "100 x 120 cm Altı Kapalı CP-6 Ahşap Palet",
     "category": "wooden",
     "img": "woodenPals/100x120altıkapalıcp-6.jpg",
@@ -93,6 +87,12 @@
     "title": "Özel üretim Ahşap Palet ",
     "category": "wooden",
     "img": "woodenPals/110x110ikitarafıacik.jpg",
+    "visible": true
+  },
+  {
+    "title": "110 x 130 cm Hammadde (Altı Açık PRS - 4) Ahşap Palet",
+    "category": "wooden",
+    "img": "woodenPals/110x130hammadde.jpg",
     "visible": true
   }
 ]

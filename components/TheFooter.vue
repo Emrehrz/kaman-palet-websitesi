@@ -1,5 +1,5 @@
 <template>
-  <footer class="relative bg-my-darkBlue text-my-lightGray shadow mt-auto bottom-0 ">
+  <footer class="relative bg-my-darkBlue text-my-lightGray shadow mt-auto mb-0 bottom-0 ">
     <div class="max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
       <p class="hover:underline self-end">© {{ currentYear }}
         Kaman Palet. Tüm hakları saklıdır.</p>

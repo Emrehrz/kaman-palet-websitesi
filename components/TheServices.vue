@@ -4,7 +4,7 @@
 
       <div class="grid grid-cols-1 gap-4  w-[80vw] mx-auto my-4">
 
-        <div class="inline-flex flex-col md:flex-row lg:max-w-[60vw] justify-self-center
+        <div class="inline-flex flex-col lg:flex-row lg:max-w-[60vw] justify-self-center
       rounded overflow-hidden shadow-lg my-2">
 
           <img class="w-fit sm:w-full lg:w-[25vw]" src="/img/forklift.png" alt="Sunset in the mountains">

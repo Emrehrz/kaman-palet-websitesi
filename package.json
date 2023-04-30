@@ -16,6 +16,7 @@
     "tailwind-scrollbar": "^3.0.0"
   },
   "dependencies": {
+    "@nuxtjs/google-fonts": "^3.0.0",
     "swiper": "^9.2.2"
   }
 }

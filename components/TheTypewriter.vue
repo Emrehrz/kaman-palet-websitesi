@@ -1,7 +1,10 @@
 <template>
-  <div
-    class="typewriter inline-flex flex-wrap text-center flex-row w-full bg-white bg-opacity-70 text-my-darkBlue h-28 mb-4 mt-8 md:mt-0 text-3xl font-extrabold tracking-b leading-none md:text-5xl xl:text-6xl ">
-    <h1 class="mx-auto">İstanbulun en <span class=" text-my-lightOrange">{{ text }}</span> paletleri.</h1>
+  <div style="background-image: url('/img/mainPhoto.jpg');"
+    class="typewriter bg-cover bg-blend-overlay bg-fixed p-24 bg-white bg-opacity-50  h-[50vw] md:h-[15vw] inline-flex flex-wrap flex-row  text-my-darkBlue md:mt-0  font-extrabold tracking-b leading-none text-4xl md:text-5xl xl:text-6xl ">
+    <h1 class="m-auto bg-white/60 p-4 rounded-md ">İstanbulun en <br class="block sm:hidden"> <span
+        class="text-my-lightOrange">{{ text
+        }}</span> <br class="block  sm:hidden"> paletleri.
+    </h1>
   </div>
 </template>
 

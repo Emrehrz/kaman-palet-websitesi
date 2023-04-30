@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="flex flex-row items-center justify-center md:flex-row md:justify-center md:items-center text-center md:text-left gap-8 sm:gap-20 md:gap-24 text-lg font-semibold mx-auto">
+      class="flex flex-row items-center justify-center md:flex-row md:justify-center md:items-center text-center md:text-left gap-8 sm:gap-12 md:gap-16  font-semibold mx-auto text-xs lg:text-base leading-4 tracking-tighter px-4">
 
       <div class="inline-flex flex-col md:flex-row ">
         <p class="inline-flex md:flex-row flex-col first-letter:my-auto font-bold">
@@ -10,7 +10,7 @@
       </div>
 
       <div
-        class="inline-flex flex-col md:flex-row  w-auto  hover:skew-x-12 p-2  ease-linear duration-150 items-center overflow-hidden ">
+        class="inline-flex flex-col md:flex-row  w-auto  hover:skew-x-12 p-2 ease-linear duration-150 items-center overflow-hidden ">
         <a class="inline-flex md:flex-row flex-col items-center hover:text-my-darkOrange" target="_blank"
           href="https://goo.gl/maps/PQbaCJMcNUSgsfkr6">
           <Icon class="md:block mr-1 w-6 h-6 hover:skew-x-0" name="material-symbols:location-on" />
@@ -38,18 +38,18 @@
         <a class="flex-nowrap inline-flex md:flex-row flex-col items-center hover:text-my-darkOrange" target="_blank"
           href="mailto:  kamanpalet@gmail.com">
           <Icon class=" w-5 h-5 md:mr-1 md:w-6 md:h-6 hover:skew-x-0" name="material-symbols:mail-rounded" />
-          <span class="hidden sm:block"> kamanpalet@gmail.com</span>
+          <span class="hidden sm:block md:hidden xl:block"> kamanpalet@gmail.com</span>
         </a>
       </div>
     </div>
 
     <nav
       class="font-bold font-sans w-full md:w-full h-20 mx-auto flex justify-between items-center bg-my-darkOrange text-my-white shadow-xl truncate">
-      <div class="flex items-center  font-bold text-3xl p-4 ">
+      <div class="flex items-center font-bold text-xl md:text-2xl lg:text-3xl p-4 ">
         <p>Kaman Palet</p>
       </div>
       <div
-        class="nav-links bg-my-white md:bg-orange-600 rounded duration-500 absolute md:static min-h-[60vh] md:min-h-fit left-0 top-[-100%] md:bg-transparent w-full md:w-auto text-xl md:text-base lg:text-2xl flex items-center px-5 z-20">
+        class="nav-links bg-my-white md:bg-orange-600 rounded duration-500 absolute md:static min-h-[60vh] md:min-h-fit left-0 top-[-100%] md:bg-transparent w-full md:w-auto text-xl sm:text-sm md:text-base lg:text-2xl flex items-center px-5 z-20">
         <ul class="flex md:flex-row flex-col items-start md:items-center md:gap-[2vw] gap-6">
           <li>
             <NuxtLink @click="onToggleMenu()"
@@ -100,7 +100,8 @@ export default {
     onToggleMenu(e) {
       const navLinks = document.querySelector('.nav-links')
       navLinks.classList.toggle('top-[13%]')
-      navLinks.classList.toggle('sm:top-[1%]')
+      navLinks.classList.toggle('sm:top-[21%]')
+      navLinks.classList.toggle('md:top-[10%]')
     },
 
   }

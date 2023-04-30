@@ -1,20 +1,14 @@
 <template>
   <div class="h-fit ">
-    <div class="bg-transparent  overflow-hidden ">
-      <swiper class="mySwiper " :spaceBetween="10" :autoplay="{
+    <div class="overflow-hidden ">
+      <swiper class="mySwiper h-fit" :spaceBetween="10" :autoplay="{
           delay: 800,
           disableOnInteraction: false,
         }" :pagination="{
       clickable: true,
     }" :navigation="true" :modules="modules">
-        <swiper-slide><img class="rounded-md" src="/img/palet1.png" alt=""></swiper-slide>
-        <swiper-slide><img class="rounded-md" src="/img/palet2.png" alt=""></swiper-slide>
-        <swiper-slide><img class=" rounded-md " src="/img/woodenPals/100x120ince.jpg" alt=""></swiper-slide>
-        <swiper-slide><img class="rounded-md" src="/img/woodenPals/100x120Euro2.jpg" alt=""></swiper-slide>
-        <swiper-slide><img class="rounded-md" src="/img/woodenPals/110x110ikitarafıacik.jpg" alt=""></swiper-slide>
-        <swiper-slide><img class="rounded-md" src="/img/mainPal1.jpg" alt=""></swiper-slide>
-        <swiper-slide><img class="rounded-md" src="/img/mainPal2.jpg" alt=""></swiper-slide>
-
+        <swiper-slide class="h-fit  " v-for="(product, index) in  products " :key="index"><img class="rounded-md"
+            :src="`/img/${product.img}`" alt="" v-if="product.img != 'woodenPals/110x130hammadde.jpg'"></swiper-slide>
         ...
       </swiper>
     </div>
@@ -28,6 +22,9 @@ import { Autoplay, Pagination, Navigation } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/autoplay'
 
+import woodPals from '/src/data/allPalettes.json'
+
+
 
 export default {
   components: {
@@ -35,6 +32,7 @@ export default {
     SwiperSlide,
   },
   setup() {
+    const products = woodPals
     const onSwiper = (swiper) => {
       console.log(swiper);
     };
@@ -42,6 +40,7 @@ export default {
       console.log('slide change');
     };
     return {
+      products,
       onSwiper,
       onSlideChange,
       modules: [Autoplay, Pagination, Navigation],
@@ -53,15 +52,14 @@ export default {
 <style scoped>
 .swiper {
   width: 320px;
-  height: 300px;
+  height: 280px;
   justify-content: center;
   overflow: visible;
-
 }
 
 .my-swiper {
   width: 150%;
-  height: 400px;
+  height: 150px;
   overflow-x: hidden;
 }
 
