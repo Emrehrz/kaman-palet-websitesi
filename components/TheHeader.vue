@@ -62,7 +62,7 @@
             <NuxtLink @click="onToggleMenu()"
               class="my-link flex transition ease-in-out delay-100 p-2 md:text-my-white text-my-darkOrange hover:text-my-darkBlue  duration-300  cursor-pointer "
               to="/Catalog" exact>
-              <Icon class="m-auto mr-3 w-6 h-6 " name="ph:list-fill" /> Katalog
+              <Icon class="m-auto mr-3 w-6 h-6 " name="carbon:catalog" /> Katalog
             </NuxtLink>
           </li>
           <li>

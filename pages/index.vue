@@ -1,6 +1,6 @@
 <template>
   <div>
-    <TheMainHero class="mb-2"></TheMainHero>
+    <TheMainHero></TheMainHero>
     <TheCarousel></TheCarousel>
   </div>
 </template>

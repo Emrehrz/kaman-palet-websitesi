@@ -1,34 +1,40 @@
 <template>
-  <section class="mx-auto  text-my-darkBlue w-full sm:h-auto md:w-full md:h-fit  font-bold ">
+  <section class="mx-auto  text-my-darkBlue w-full sm:h-auto md:w-full md:h-[70vw] lg:h-fit  font-bold ">
 
-    <TheTypewriter class=" w-full my-auto col-span-12 p-4"></TheTypewriter>
+    <TheTypewriter class=" w-full  my-auto col-span-12 p-4"></TheTypewriter>
 
-    <div class="flex flex-col md:flex-row gap-[15vw] w-full h-fit p-6  bg-my-white text-my-black ">
-      <p class="w-fit my-8 lg:mb-8 text-base md:text-lg lg:text-xl italic">
+    <div
+      class="flex flex-col lg:flex-row gap-[3vw] lg:gap-[10vw] w-full h-fit py-2 lg:py-6 px-6 bg-my-white text-my-black ">
+      <p class="w-fit my-5 lg:mb-8 text-base md:text-lg lg:text-xl italic">
         İstanbul'un her yanına kaliteli, sağlam ve sektörde öncü markaların ürünleri sağlamaktayız.
       </p>
-      <NuxtLink to="/catalog"
-        class="inline-flex items-center w-fit justify-center px-5 py-3 mr-3  font-medium text-center rounded-lg bg-primary-700 hover:bg-my-lightOrange hover:text-white ease-out duration-200 border-2 border-my-lightOrange text-sm md:text-lg">
-        Ürünlerimize göz atın.
-        <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd"
-            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-            clip-rule="evenodd"></path>
-        </svg>
-      </NuxtLink>
-      <NuxtLink to="/services"
-        class="inline-flex items-center w-fit justify-center px-5 py-3 mr-3  font-medium text-center rounded-lg bg-primary-700 hover:bg-my-lightOrange hover:text-white ease-out duration-200 border-2 border-my-lightOrange text-sm md:text-lg">
-        Hizmetlerimize göz atın.
-        <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd"
-            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-            clip-rule="evenodd"></path>
-        </svg>
-      </NuxtLink>
-    </div>
-    <TheTextCarousel></TheTextCarousel>
-  </section>
+      <div class="inline-flex flex-col mb-2 md:flex-row gap-[5vw] md:gap-[2vw]">
+        <NuxtLink to="/catalog"
+          class="w-fit lg:w-[15vw] h-fit p-2  my-auto font-medium text-center rounded-lg  hover:bg-my-lightOrange hover:text-white hover:border-my-lightOrange ease-out duration-300 border border-my-gray text-sm md:text-lg">
+          Ürünlerimize göz atın.
 
+        </NuxtLink>
+
+        <NuxtLink to="/services"
+          class="w-fit lg:w-[15vw] h-fit p-2 my-auto font-medium text-center rounded-lg  hover:bg-my-lightOrange hover:text-white hover:border-my-lightOrange ease-out duration-300 border border-my-gray text-sm md:text-lg">
+          Hizmetlerimize göz atın.
+
+        </NuxtLink>
+      </div>
+
+    </div>
+    <div class="h-fit bg-my-lightOrange py-1 text-white hover:bg-my-gray duration-150 ease-linear ">
+      <p class="text-center text-sm md:text-lg px-2 lg:px-5">
+        Özel Üretim Ahşap Palet,&NonBreakingSpace; Özel Üretim Plastik Palet,&NonBreakingSpace; Sıfır Ahşap
+        Palet,&NonBreakingSpace; İkinci El Palet,&NonBreakingSpace; Euro
+        Palet,&NonBreakingSpace; Epal Palet,&NonBreakingSpace;
+        80x120 Palet,&NonBreakingSpace;
+        100x120 Palet,&NonBreakingSpace;
+        Taşımacılık Hizmeti,&NonBreakingSpace;
+        Forklift Kiralama Hizmeti
+      </p>
+    </div>
+  </section>
 
   <!-- <section class="mx-auto bg-my-lightOrange  text-my-darkBlue w-full h-[100vw] sm:h-auto md:w-full md:h-[25vw] ">
 
@@ -59,6 +65,8 @@
     </div>
   </section> -->
 </template>
+
+
 
 
 <style>
