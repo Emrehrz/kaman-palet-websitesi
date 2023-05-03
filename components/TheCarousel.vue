@@ -7,8 +7,8 @@
         }" :pagination="{
       clickable: true,
     }" :navigation="true" :modules="modules">
-        <swiper-slide class="h-fit  " v-for="(product, index) in  products " :key="index"><img class="rounded-md"
-            :src="`/img/${product.img}`" alt="Paletler"
+        <swiper-slide class="h-fit  " v-for="(product, index) in  products " :key="index"><img format="webp"
+            class="rounded-md" :src="`/img/${product.img}`" alt="Paletler"
             v-if="product.img != 'woodenPals/110x130hammadde.jpg'"></swiper-slide>
         ...
       </swiper>
