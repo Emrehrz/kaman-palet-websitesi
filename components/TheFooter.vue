@@ -13,12 +13,14 @@
             <span>Tel: 0532 412 54 37</span>
           </a>
         </li>
+
         <li>
           <a class="mr-2 hover:underline md:mr-6 " target="_blank"
             href="https://wa.me/905324125437?text=Merhaba,%20Bana%20palet%20lazım.">
             <span>Whatsapp: 0532 412 54 37</span>
           </a>
         </li>
+
         <li>
           <a href="tel:02126723821" class="mr-2 hover:underline md:mr-6 ">Sabit hat: 0212 672 3821</a>
         </li>

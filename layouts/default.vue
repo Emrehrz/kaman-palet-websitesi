@@ -1,7 +1,7 @@
 <template>
   <div class="bg-my-lightGray min-h-screen max-w-screen">
     <header>
-      <TheHeader></TheHeader>
+      <TheHeader class="bg-my-darkOrange"></TheHeader>
     </header>
 
 

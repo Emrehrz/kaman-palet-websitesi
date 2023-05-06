@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="flex flex-row items-center justify-center md:flex-row md:justify-center md:items-center text-center md:text-left gap-8 sm:gap-12 md:gap-16  font-semibold mx-auto text-xs lg:text-base leading-4 tracking-tighter px-4">
+      class="flex flex-row items-center justify-center md:flex-row md:justify-center md:items-center text-center md:text-left gap-8 sm:gap-12 md:gap-16  font-semibold mx-auto text-xs lg:text-base leading-4 bg-my-white tracking-tighter px-4">
 
       <div class="inline-flex flex-col md:flex-row ">
         <p class="inline-flex md:flex-row flex-col first-letter:my-auto font-bold">
@@ -44,48 +44,53 @@
     </div>
 
     <nav
-      class="font-bold font-sans w-full md:w-full h-20 mx-auto flex justify-between items-center bg-my-darkOrange text-my-white shadow-xl truncate">
-      <div class="flex items-center font-bold text-xl md:text-2xl lg:text-3xl p-4 ">
-        <p>Kaman Palet</p>
-      </div>
+      class="font-bold font-sans w-full lg:w-[90%] h-20 mx-auto flex justify-between p-4 items-center bg-my-darkOrange text-my-white truncate">
+
+      <NuxtLink class=" cursor-pointer bg-white md:p-0 lg:p-2 rounded-md" to="/" exact><img
+          class="ml-auto w-fit h-[50px] " src="/img/navLogo2.png" width="250" height="50" alt="">
+      </NuxtLink>
+
+
       <div
-        class="nav-links bg-my-white md:bg-orange-600 rounded duration-500 absolute md:static min-h-[60vh] md:min-h-fit left-0 top-[-100%] md:bg-transparent w-full md:w-auto text-xl sm:text-sm md:text-base lg:text-2xl flex items-center px-5 z-20">
+        class="nav-links bg-my-white md:bg-orange-600 rounded duration-500 absolute md:static min-h-[60vh] md:min-h-fit left-0 top-[-100%] md:bg-transparent w-full md:w-auto text-xl sm:text-sm md:text-xs lg:text-2xl flex items-center px-5 z-20">
         <ul class="flex md:flex-row flex-col items-start md:items-center md:gap-[2vw] gap-6">
           <li>
             <NuxtLink @click="onToggleMenu()"
               class="my-link flex transition ease-in-out delay-100 p-2 md:text-my-white text-my-darkOrange hover:text-my-darkBlue  duration-300  cursor-pointer "
               to="/" exact>
-              <Icon class="my-auto mr-3 w-6 h-6 " name="ph:house-fill" /> Anasayfa
+              <Icon class="my-auto w-6 h-6 mr-3 md:w-4 md:h-4 lg:w-6 lg:h-6 " name="ph:house-fill" /> Anasayfa
             </NuxtLink>
           </li>
           <li>
             <NuxtLink @click="onToggleMenu()"
               class="my-link flex transition ease-in-out delay-100 p-2 md:text-my-white text-my-darkOrange hover:text-my-darkBlue  duration-300  cursor-pointer "
               to="/Catalog" exact>
-              <Icon class="m-auto mr-3 w-6 h-6 " name="carbon:catalog" /> Katalog
+              <Icon class="my-auto w-6 h-6 mr-3 md:w-4 md:h-4 lg:w-6 lg:h-6 " name="carbon:catalog" /> Katalog
             </NuxtLink>
           </li>
           <li>
             <NuxtLink @click="onToggleMenu()"
               class="my-link flex transition ease-in-out delay-100 p-2 md:text-my-white text-my-darkOrange hover:text-my-darkBlue  duration-300  cursor-pointer "
               to="/Services">
-              <Icon class="m-auto mr-3 w-6 h-6  " name="fluent:service-bell-24-filled" /> Hizmetlerimiz
+              <Icon class="my-auto w-6 h-6 mr-3 md:w-4 md:h-4 lg:w-6 lg:h-6 " name="fluent:service-bell-24-filled" />
+              Hizmetlerimiz
             </NuxtLink>
           </li>
           <li>
             <NuxtLink @click="onToggleMenu()"
               class="my-link flex transition ease-in-out delay-100 p-2 md:text-my-white text-my-darkOrange hover:text-my-darkBlue  duration-300  cursor-pointer "
               to="/Aboutus" exact>
-              <Icon class="m-auto mr-3 w-6 h-6  " name="fluent:book-information-24-filled" /> Hakkımızda
+              <Icon class="my-auto w-6 h-6 mr-3 md:w-4 md:h-4 lg:w-6 lg:h-6 " name="fluent:book-information-24-filled" />
+              Hakkımızda
             </NuxtLink>
           </li>
 
         </ul>
       </div>
 
-      <div class="flex items-center gap-6">
+      <div class="flex items-end gap-6">
 
-        <button @click="onToggleMenu()" class="text-3xl cursor-pointer  p-4 mr-4 md:hidden">
+        <button @click="onToggleMenu()" class="text-4xl cursor-pointer w-fit h-fit my-auto ml-auto p-1 md:hidden">
           <Icon class="" name="ci:hamburger-lg" />
         </button>
       </div>
