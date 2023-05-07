@@ -7,11 +7,13 @@
         <p class="max-w-6xl tracking-wide font-semibold mb-6 lg:mb-2 md:text-lg lg:text-xl ">Biz, paletler
           konusunda
           faaliyet
-          gösteren bir firma olarak, müşterilerimize kaliteli ürünler sunmayı hedefliyoruz. Firma olarak henüz yeni
-          sayılabilecek bir firma olsak da, ürünlerimizdeki kalite ve müşteri memnuniyeti odaklı yaklaşımımız sayesinde
-          kısa sürede sektörde önemli bir yer edindik.
+          gösteren bir firma olarak, müşterilerimize kaliteli ürünler sunmayı hedefliyoruz. Firma olarak, ürünlerimizin
+          kalitesi ve
+          müşteri memnuniyeti odaklı yaklaşımımız ile sizlere lojistik hizmet, forklift kiralama hizmeti ve palet tedariği
+          yapmaktayız .
 
-          Tahta paletler, nakliye işlemlerinde kullanılan önemli bir üründür. Biz de, müşterilerimize ihtiyaçlarına uygun
+          Gerek tahta gerek plastik paletler, nakliye işlemlerinde kullanılan önemli bir üründür. Biz de, müşterilerimize
+          ihtiyaçlarına uygun
           boyut ve özelliklerde tahta paletler sunarak, taşıma işlemlerinde kolaylık sağlamayı hedefliyoruz. Ürünlerimiz,
           çevre dostu malzemeler kullanılarak üretilir. Bu sayede, ürünlerimiz çevreye duyarlı bir seçenek olarak öne
           çıkıyor.
