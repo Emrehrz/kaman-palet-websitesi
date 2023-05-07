@@ -1,5 +1,5 @@
 <template>
-  <div style="background-image: url('/img/mainPhoto.jpg');"
+  <div style="background-image: url('/img/mainPhoto.webp');"
     class="typewriter bg-cover bg-blend-overlay bg-fixed p-24 bg-white bg-opacity-50  h-[50vw] md:h-[30vw] lg:h-[20vw] inline-flex flex-wrap flex-row  text-my-darkBlue md:mt-0  font-extrabold tracking-b leading-none text-4xl md:text-5xl xl:text-6xl ">
     <h1 class="m-auto bg-white/60 p-4 rounded-md ">İstanbulun en <br class="block sm:hidden"> <span
         class="text-my-lightOrange">{{ text

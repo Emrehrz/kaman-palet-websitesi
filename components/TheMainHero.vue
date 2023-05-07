@@ -1,5 +1,5 @@
 <template>
-  <section class="mx-auto  text-my-darkBlue w-full sm:h-auto md:w-full md:h-[70vw] lg:h-fit  font-bold ">
+  <section class="mx-auto text-my-darkBlue w-full sm:h-auto md:w-full md:h-[74vw] lg:h-fit font-bold ">
 
     <TheTypewriter class=" w-full  my-auto col-span-12 p-4"></TheTypewriter>
 

@@ -3,14 +3,14 @@
     "id": 123,
     "title": "80 x 120 cm Plastik Palet",
     "category": "plastic",
-    "img": "plasticPals/80x120plastik.png",
+    "img": "plasticPals/80x120plastik.webp",
     "visible": true
   },
   {
     "id": 122,
     "title": "100 x 120 cm Plastik Palet",
     "category": "plastic",
-    "img": "plasticPals/100x120plastik.png",
+    "img": "plasticPals/100x120plastik.webp",
     "visible": true
   }
 ]

@@ -120,25 +120,6 @@ export default {
   created() {
 
   },
-  computed: {
-    filteredProducts() {
-      let result = this.palettes.filter(pal => {
-        if (this.visibility.wooden == true)
-          return pal.category === 'wooden'
-
-        else if (this.visibility.metal == true)
-          return pal.category === 'metal'
-
-        else if (this.visibility.plastic == true)
-          return pal.category === 'plastic'
-
-        else
-          return this.palettes
-
-      })
-      return result
-    }
-  },
   methods: {
     toggle(category) {
       if (category == "wooden") {
@@ -152,19 +133,6 @@ export default {
       }
 
       this.allCategories = true
-    },
-    changeVis(vis) {
-      for (var key in this.visibility) {
-        if (this.visibility.hasOwnProperty(key)) {
-          if (key === vis)
-            this.visibility[key] = true
-          else
-            this.visibility[key] = false
-          console.log(key + " -> " + this.visibility[key]);
-        }
-      }
-      vis = true
-      console.log("this.visibility.wooden", vis)
     },
     getAllCategories() {
       this.visibility.wooden = true

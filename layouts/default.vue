@@ -9,7 +9,7 @@
       <slot />
     </main>
 
-    <TheFooter class="relative bottom-0"></TheFooter>
+    <TheFooter class="relative  bottom-0"></TheFooter>
   </div>
 </template>
 
