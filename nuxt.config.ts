@@ -14,5 +14,5 @@ export default defineNuxtConfig({
   robots: {
     siteUrl: 'https://example.com',
   },
-  ssr: true,
+  ssr: false,
 })
