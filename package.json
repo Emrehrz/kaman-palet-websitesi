@@ -13,9 +13,11 @@
     "@nuxtjs/tailwindcss": "^6.6.6",
     "nuxt": "^3.4.1",
     "nuxt-icon": "^0.3.3",
+    "nuxt-simple-robots": "^2.3.0",
     "tailwind-scrollbar": "^3.0.0"
   },
   "dependencies": {
+    "@nuxt-modules/compression": "^0.1.0",
     "@nuxtjs/google-fonts": "^3.0.0",
     "swiper": "^9.2.2",
     "unhead": "^1.1.26"

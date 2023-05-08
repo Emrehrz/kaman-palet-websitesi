@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-my-lightGray min-h-screen max-w-screen">
+  <div class="bg-my-lightGray min-h-screen max-w-screen  ">
     <header>
       <TheHeader class="bg-my-darkOrange"></TheHeader>
     </header>

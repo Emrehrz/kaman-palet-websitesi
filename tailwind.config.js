@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        "my-orange": "#a85c02",
         "my-lightOrange": "#f28705",
         "my-darkOrange": "#f27405",
         "my-lightBrown": "#8c2703",
@@ -13,6 +14,7 @@ module.exports = {
         "my-white": "#f7f4eb",
         "my-yellow": "#f2b705",
         "my-black": "#000000",
+        "my-slate": "#323232",
 
       },
       backgroundImage: {

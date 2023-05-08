@@ -40,10 +40,8 @@
 
                 <div class="mt-2 flex">
                   <span class="text-gray-600 text-sm text-start "> Kaman Palet / İstanbul / 2023</span> <br>
-                  <!-- <span class="text-gray-600 text-sm "> Daha fazla bilgi almak için bizimle iletişime geçin</span> -->
                 </div>
 
-                <!-- <button class="bg-my-lightOrange mt-2 p-2  text-my-white font-bold rounded-md">Detaylar</button> -->
               </div>
               <p class=" mt-0 text-my-black text-xs lg:text-sm  text-end p-2">Daha fazla bilgi için bizimle
                 iletişime
@@ -76,7 +74,6 @@
                 <div class="mt-2">
                   <span class="text-gray-600 text-sm "> Kaman Palet / İstanbul / 2023</span>
                 </div>
-                <!-- <button class="bg-my-lightOrange mt-2 p-2  text-my-white font-bold rounded-md">Detaylar</button> -->
               </div>
             </div>
 
@@ -131,7 +128,6 @@ export default {
         this.visibility.plastic = true
 
       }
-
       this.allCategories = true
     },
     getAllCategories() {
