@@ -104,7 +104,7 @@ export default {
   methods: {
     onToggleMenu(e) {
       const navLinks = document.querySelector('.nav-links')
-      navLinks.classList.toggle('top-[16%]')
+      navLinks.classList.toggle('top-[20%]')
       navLinks.classList.toggle('sm:top-[21%]')
       navLinks.classList.toggle('md:top-[10%]')
     },
