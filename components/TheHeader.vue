@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="flex flex-row items-center justify-center md:flex-row md:justify-center md:items-center text-center md:text-left gap-8 sm:gap-12 md:gap-16  font-semibold mx-auto text-xs lg:text-base leading-4 bg-my-white tracking-tighter px-4">
+      class="flex flex-row h-fit items-center justify-center md:flex-row md:justify-center md:items-center text-center md:text-left gap-8 sm:gap-12 md:gap-16  font-semibold mx-auto text-xs lg:text-base leading-4 bg-my-white tracking-tighter px-4">
 
       <div class="inline-flex flex-col md:flex-row ">
         <p class="inline-flex md:flex-row flex-col first-letter:my-auto font-bold">
@@ -104,7 +104,7 @@ export default {
   methods: {
     onToggleMenu(e) {
       const navLinks = document.querySelector('.nav-links')
-      navLinks.classList.toggle('top-[15%]')
+      navLinks.classList.toggle('top-[120px]')
       navLinks.classList.toggle('sm:top-[21%]')
       navLinks.classList.toggle('md:top-[10%]')
     },
