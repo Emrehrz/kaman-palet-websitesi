@@ -24,13 +24,15 @@
 
     </div>
     <div class="h-fit bg-my-lightOrange py-1 text-my-slate hover:bg-my-white duration-150 ease-linear ">
-      <p class="text-center text-sm md:text-lg lg:text-xl py-0 md:py-1  lg:px-5 leading-loose">
-        Özel Üretim Ahşap Palet,&NonBreakingSpace; Özel Üretim Plastik Palet,&NonBreakingSpace; Sıfır Ahşap
-        Palet,&NonBreakingSpace; İkinci El Palet,&NonBreakingSpace; Euro
-        Palet,&NonBreakingSpace; Epal Palet,&NonBreakingSpace;
-        80x120 Palet,&NonBreakingSpace;
-        100x120 Palet,&NonBreakingSpace;
-        Taşımacılık Hizmeti,&NonBreakingSpace;
+      <p class="text-center text-sm md:text-lg py-0 md:py-1  lg:px-5 leading-loose">
+        &bull; Özel Üretim Ahşap Palet&NonBreakingSpace; &NonBreakingSpace; &bull; Özel Üretim Plastik
+        Palet&NonBreakingSpace; &NonBreakingSpace; &bull; Sıfır
+        Ahşap
+        Palet&NonBreakingSpace; &NonBreakingSpace; &bull; İkinci El Palet&NonBreakingSpace; &NonBreakingSpace; &bull; Euro
+        Palet&NonBreakingSpace; &NonBreakingSpace; &bull; Epal Palet&NonBreakingSpace; &NonBreakingSpace; &bull;
+        80x120 Palet&NonBreakingSpace; &NonBreakingSpace; &bull;
+        100x120 Palet&NonBreakingSpace; &NonBreakingSpace; &bull;
+        Taşımacılık Hizmeti&NonBreakingSpace; &NonBreakingSpace; &bull;
         Forklift Kiralama Hizmeti
       </p>
     </div>

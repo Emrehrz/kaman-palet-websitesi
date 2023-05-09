@@ -46,8 +46,9 @@
     <nav
       class="font-bold font-sans w-full lg:w-[90%] h-20 mx-auto flex justify-between p-4 items-center bg-my-darkOrange text-my-white truncate">
 
-      <NuxtLink class=" cursor-pointer bg-white md:p-0 lg:p-2 rounded-md" to="/" exact><img
-          class="ml-auto w-fit h-[50px] " src="/img/navLogo2.webp" width="250" height="50" alt="">
+      <NuxtLink class="inline-flex flex-row cursor-pointer bg-white p-2 rounded-md" to="/" exact>
+        <img class=" w-fit h-[50px] " src="/img/navLogo3.png" width="250" height="50" alt="">
+        <p class=" my-auto text-my-darkBlue text-3xl">Kaman Palet</p>
       </NuxtLink>
 
 
