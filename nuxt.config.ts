@@ -12,7 +12,7 @@ export default defineNuxtConfig({
   },
   modules: ['@nuxtjs/tailwindcss', 'nuxt-icon', '@nuxt/content', 'nuxt-simple-robots'],
   robots: {
-    siteUrl: 'https://example.com',
+    siteUrl: 'https://kamanpalet.com',
   },
   ssr: false,
 })
