@@ -1,4 +1,4 @@
-## A website with nuxt3 and tailwindcss.
+## A pallet supplier website with nuxt3 and tailwindcss.
 
 Make sure to install the dependencies:
 
