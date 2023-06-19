@@ -46,9 +46,8 @@
     <nav
       class="font-bold font-sans w-full lg:w-[90%] h-20 mx-auto flex justify-between p-4 items-center bg-my-darkOrange text-my-white truncate">
 
-      <NuxtLink class="inline-flex flex-row cursor-pointer bg-white p-2 rounded-md px-4" to="/" exact>
-        <img class="w-[55px] h-[50px]  mr-2" src="/img/navLogo3.webp" alt="">
-        <p class=" my-auto text-my-darkBlue text-3xl">Kaman Palet</p>
+      <NuxtLink class="inline-flex flex-row cursor-pointer  p-2  px-4" to="/" exact>
+        <img class=" h-[270px]  w-auto mb-2 " src="/img/newLogo.svg" alt="SVG LOGO">
       </NuxtLink>
 
 
@@ -105,10 +104,8 @@ export default {
   methods: {
     onToggleMenu(e) {
       const navLinks = document.querySelector('.nav-links')
-      navLinks.classList.toggle('top-[20%]')
-      navLinks.classList.toggle('sm:top-[21%]')
-      navLinks.classList.toggle('md:top-[10%]')
-    },
+      navLinks.classList.toggle('top-[15%]')
+    }
 
   }
 }
